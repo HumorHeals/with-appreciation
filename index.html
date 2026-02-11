@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,15 +14,28 @@
         font-size: 22px;
     }
 
+    /* OPTION 1 — Elegant Double Border (matches rose color) */
     .card {
         background: white;
         max-width: 600px;
         margin: 0 auto;
         padding: 50px 40px;
         border-radius: 14px;
-        border: 4px solid #800020; /* maroon/wine/burgundy frame */
+        border: 6px double #b3001b; /* deep rose red */
         box-shadow: 0 8px 20px rgba(0,0,0,0.08);
     }
+
+    /* OPTION 2 — Ornate Groove Border (uncomment to try)
+    .card {
+        background: white;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 50px 40px;
+        border-radius: 14px;
+        border: 8px groove #b3001b;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
+    */
 
     .symbol {
         font-size: 48px;
@@ -32,13 +44,13 @@
 
     .signature {
         margin-top: 30px;
-        font-size: 22px;   /* same as body */
-        font-style: normal; /* same as body */
+        font-size: 22px;
+        font-style: normal;
     }
 
     .fancy-name {
         font-size: 32px;
-        font-style: italic; /* only the name is stylized */
+        font-style: italic;
     }
 </style>
 </head>
